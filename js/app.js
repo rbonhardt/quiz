@@ -127,6 +127,5 @@ function updateProgress(score, progress, questionCount) {
 	$('#score').text(score);
 	$('#score-bar').attr('aria-valuenow', score);
 	$('#score-bar').attr('style', 'width: '+score+'%;');
-
 }
 

@@ -63,7 +63,7 @@ h3 {
 }
 
 .main {
-	/*display:none;*/
+	display:none;
 	width: 450px;
 	margin: 6% auto 0;
 	background-color: white;
