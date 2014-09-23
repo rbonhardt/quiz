@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+	<div class="progress">
+	  <div id="top-progress" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+	    Question <span id="question-count">1</span> of 5
+	  </div>
+	</div>
+	<div id="text">
+		<h1 class="step-1">How well do you know your state capitals?</h1>
+		<h1 class="step-2">Let's find out</h1>
+	</div>
+	<div class="main">
+		<div class="heading">	
+			<h2>What is the capital of</h2>
+			<h1><span id="capital"></span>?</h1>
+		</div>
+		<div class="list">
+			<ol class="options">
+				<li class="list-item-1"><i class="fa fa-check"></i><span class="item"></span></li>
+				<li class="list-item-2"><i class="fa fa-check"></i><span class="item"></span></li>
+				<li class="list-item-3"><i class="fa fa-check"></i><span class="item"></span></li>
+				<li class="list-item-4"><i class="fa fa-check"></i><span class="item"></span></li>
+			</ol>
+			<ol class="answers">
+				<li class="list-item-1"><span class="answer"></span></li>
+				<li class="list-item-2"><span class="answer"></span></li>
+				<li class="list-item-3"><span class="answer"></span></li>
+				<li class="list-item-4"><span class="answer"></span></li>
+				<li class="list-item-5"><span class="answer"></span></li>
+			</ol>
+			<div class="checkout">
+				<h1 class="not-selected">Choose an answer</h1>
+				<button>That is my final answer</button>
+			</div>
+			<div class="reset">
+				<button>Try Again</button>
+			</div>
+		</div>
+		<div id="update"><h1>Select an answer</h1>
+	</div>
+	</div>
+	<div class="progress bottom">
+	  <div id="score-bar" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+	    <span id="score">0</span> Points
+	  </div>
+	</div>
+</body>
+</html>
